@@ -1,0 +1,27 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "dnsNamePrefix": {
+      "value": "shipdemo-dcos"
+    },
+    "agentCount": {
+      "value": 1
+    },
+    "agentVMSize": {
+      "value": "Standard_D1_v2"
+    },
+    "linuxAdminUsername": {
+      "value": "azureuser"
+    },
+    "orchestratorType": {
+      "value": "DCOS"
+    },
+    "masterCount": {
+      "value": 1
+    },
+    "sshRSAPublicKey": {
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDiyM6IxA6TC5S2D7lwKSNWHkLnhIXpCEUx14Ms7/8D9aVDiMWZ3FmqfQqWpkBj0eTAtEouOiWLQW4ypc4dhhL4kvum63ef+abv/XfJc3KuHCSbKDRABzh7PgQroNpXR6NOOBdQDhx0LPo5eD/uGOkaPCphsR/m5dq2WwdrYuVImVhHgp5QcCRdIIHvrgoBN5M4GMla70nweMhqyx6OoxMPgO2IE5TYi/jnQ6eOjD4n0/LK+ivZ9oNCVldFHFnJoLlcRhPAvpngC64JHjdstg09kk7FhhNRd2g+NVM0LC/MzKdcSya5+fAEjSElrshueQB8EiERHsmZSMHPmpleZEuL demos@shippable.com"
+    }
+  }
+}
